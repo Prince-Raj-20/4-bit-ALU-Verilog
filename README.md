@@ -1,6 +1,6 @@
 # 4-bit-ALU-Verilog
 
-# 🔧 4-bit ALU in Verilog – Simulation Project
+# 🔢 4-bit ALU in Verilog – Simulation Project
 
 This project implements a 4-bit **Arithmetic Logic Unit (ALU)** using **Verilog HDL**, a key component in digital processors. The ALU is designed to perform basic arithmetic and logic operations and simulate the behavior of a real CPU-level ALU by including condition flags such as **Zero**, **Negative**, and **CarryOut**.
 
@@ -42,7 +42,7 @@ The ALU supports the following 4-bit operations based on a **4-bit control input
 ## 🛠 File Overview
 
 ```
-4bit-ALU-Verilog/
+4-bit-ALU-Verilog/
 ├── 4bit_alu.v # Main ALU module (with condition flags)
 ├── 4bit_alu_tb.v # Testbench for simulating ALU behavior
 └── alu_flags.vcd # Waveform output (auto-generated on run)
@@ -71,4 +71,12 @@ The ALU supports the following 4-bit operations based on a **4-bit control input
    gtkwave alu_flags.vcd
 ```
 
-   
+---
+
+### 👨‍💻 Author
+```
+Prince Raj
+GitHub: Prince-Raj-20
+```
+---
+
