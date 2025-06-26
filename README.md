@@ -43,9 +43,11 @@ The ALU supports the following 4-bit operations based on a **4-bit control input
 
 ```
 4-bit-ALU-Verilog/
-├── 4bit_alu.v # Main ALU module (with condition flags)
-├── 4bit_alu_tb.v # Testbench for simulating ALU behavior
-└── alu_flags.vcd # Waveform output (auto-generated on run)
+├── 4bit_alu.v     # Main ALU module (with condition flags)
+├── 4bit_alu_tb.v  # Testbench for simulating ALU behavior
+├── alu_flags.vcd  # Waveform output (auto-generated on run)
+└── README.md      # Project description, usage instructions, and simulation steps
+
 ```
 
 ---
