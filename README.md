@@ -11,17 +11,17 @@ It is fully simulated using open-source tools: **Icarus Verilog** for compilatio
 ## 🎯 Project Objective
 
 To understand and demonstrate:
-- Register-transfer level (RTL) design using Verilog
+- Register-transfer level (***RTL***) design using Verilog
 - ALU operations and internal logic
 - Use of simulation tools like Icarus Verilog and GTKWave
 - How condition flags (Zero, Negative, Carry) are implemented in hardware logic
-- Writing and debugging a Verilog testbench
+- Writing and debugging a Verilog ***testbench***
 
 ---
 
 ## 🧠 What the ALU Does
 
-The ALU supports the following 4-bit operations based on a 4-bit control input (`ALU_Sel`):
+The ALU supports the following 4-bit operations based on a **4-bit control input (`ALU_Sel`)**:
 
 | Opcode | Operation        | Description                         |
 |--------|------------------|-------------------------------------|
@@ -42,8 +42,8 @@ The ALU supports the following 4-bit operations based on a 4-bit control input (
 ## 🛠 File Overview
 
 ```
-4bit-alu/
-├── 4bit_alu.v # Main ALU module (with flags)
+4bit-ALU-Verilog/
+├── 4bit_alu.v # Main ALU module (with condition flags)
 ├── 4bit_alu_tb.v # Testbench for simulating ALU behavior
 └── alu_flags.vcd # Waveform output (auto-generated on run)
 ```
@@ -56,7 +56,7 @@ The ALU supports the following 4-bit operations based on a 4-bit control input (
 - [Icarus Verilog](http://iverilog.icarus.com/)
 - [GTKWave](http://gtkwave.sourceforge.net/)
 
-### Run with steps:
+### 🔧 Steps:
 
 1. **Compile the ALU and testbench:**
 ```
