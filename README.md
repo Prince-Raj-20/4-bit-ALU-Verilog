@@ -59,10 +59,16 @@ The ALU supports the following 4-bit operations based on a 4-bit control input (
 ### Run with steps:
 
 1. **Compile the ALU and testbench:**
-```iverilog -o alu_test 4bit_alu.v 4bit_alu_tb.v```
+```
+iverilog -o alu_test 4bit_alu.v 4bit_alu_tb.v
+```
 2. **Run the simulation:**
-```vvp alu_test```
+```
+vvp alu_test
+```
 3. **View the waveform:**
-```gtkwave alu_flags.vcd```
+```
+gtkwave alu_flags.vcd
+```
 
    
